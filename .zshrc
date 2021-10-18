@@ -1,6 +1,6 @@
 export ZSH="$HOME/.oh-my-zsh"
 
-echo "
+echo << BLOCK
 # RVM settings
 if [[ -s ~/.rvm/scripts/rvm ]] ; then
   RPS1="%{$fg[yellow]%}rvm:%{$reset_color%}%{$fg[red]%}\$(~/.rvm/bin/rvm-prompt)%{$reset_color%} $EPS1"
@@ -24,7 +24,10 @@ git_custom_status() {
 }
 
 PROMPT='%{$FG[082]%}[%~% ]$(git_custom_status)%{$FG[201]%}%B =>%b '
-" >> $ZSH/themes/eastwood_custom.zsh-theme
+
+BLOCK
+
+>> $ZSH/themes/eastwood_custom.zsh-theme
 
 ZSH_THEME="eastwood_custom"
 
