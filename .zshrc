@@ -14,5 +14,5 @@ alias gcm="git commit -m"
 alias gpo="git push origin"
 
 
-ZSH_CUSTOM="/workspaces/.codespaces/.persistedshare/dotfiles/.oh-my-zsh
+ZSH_CUSTOM="/workspaces/.codespaces/.persistedshare/dotfiles/.oh-my-zsh"
 ZSH_THEME="eastwood_custom"
