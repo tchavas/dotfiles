@@ -1,4 +1,6 @@
-export ZSH="$(pwd)/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
+
+cp eastwood_custom.zsh-theme $ZSH/themes/
 
 ZSH_THEME="eastwood_custom"
 
