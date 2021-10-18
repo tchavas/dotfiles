@@ -1,6 +1,6 @@
 export ZSH="$HOME/.oh-my-zsh"
 
-cp eastwood_custom.zsh-theme $ZSH/themes/
+cp /workspaces/.codespaces/.persistedshare/dotfiles/eastwood_custom.zsh-theme $ZSH/themes/
 
 ZSH_THEME="eastwood_custom"
 
