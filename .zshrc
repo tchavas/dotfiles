@@ -1,6 +1,6 @@
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="eastwood_custom"
+ZSH_THEME="/workspaces/.codespaces/.persistedshare/dotfiles/.oh-my-zsh/themes/eastwood_custom"
 
 COMPLETION_WAITING_DOTS="true"
 
