@@ -2,7 +2,9 @@ export ZSH="$HOME/.oh-my-zsh"
 
 cp /workspaces/.codespaces/.persistedshare/dotfiles/eastwood_custom.zsh-theme $ZSH/themes/
 
-ZSH_THEME="eastwood_custom"
+cp /workspaces/.codespaces/.persistedshare/dotfiles/eastwood_custom.zsh-theme $ZSH/themes/
+
+ZSH_THEME="nanotech"
 
 COMPLETION_WAITING_DOTS="true"
 
