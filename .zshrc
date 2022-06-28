@@ -17,6 +17,7 @@ alias debug="rm /tmp/overmind.sock || true && $(pwd)/script/server --debug"
 alias gcm="git commit -m"
 alias gpo="git push origin"
 alias glol="git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset'"
+unalias glg
 function glg() {
   if [ "$1" != "" ]
   then 
