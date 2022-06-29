@@ -1,6 +1,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 cp /workspaces/.codespaces/.persistedshare/dotfiles/nanotech_custom.zsh-theme $ZSH/themes/
+mv /workspaces/.codespaces/.persistedshare/dotfiles/tom_config $ZSH/custom
 
 ZSH_THEME="nanotech_custom"
 
