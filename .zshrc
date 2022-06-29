@@ -26,5 +26,5 @@ function glg() {
     git log --pretty=oneline -10
   fi
 }
-export less="-FRSX"
+
 
