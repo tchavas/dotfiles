@@ -11,6 +11,7 @@ plugins=(git rails ruby rake-fast)
 
 source $ZSH/oh-my-zsh.sh
 
+alias rtestall="TEST_ALL_FEATURES=1 bin/rails test"
 alias rtest="bin/rails test"
 alias console="bin/rails console"
 alias server="rm /tmp/overmind.sock || true && $(pwd)/script/server"
