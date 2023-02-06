@@ -18,6 +18,7 @@ alias console="bin/rails console"
 alias server="rm /tmp/overmind.sock || true && $(pwd)/script/server"
 alias debug="rm /tmp/overmind.sock || true && $(pwd)/script/server --debug"
 alias gcm="git commit -m"
+alias gcv="git commit -v"
 alias gpo="git push origin"
 alias glol="git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset'"
 unalias glg
