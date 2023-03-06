@@ -10,6 +10,7 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(git rails ruby rake-fast)
 
 source $ZSH/oh-my-zsh.sh
+git config --global --add --bool push.autoSetupRemote true
 git config --global core.editor "code --wait"
 
 alias rtestall="TEST_ALL_FEATURES=1 bin/rails test"
