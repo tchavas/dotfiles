@@ -21,6 +21,7 @@ alias debug="rm /tmp/overmind.sock || true && $(pwd)/script/server --debug"
 alias gcm="git commit -m"
 alias gcv="git commit -v"
 alias gap="git add -p"
+alias gpa="git add -p"
 alias gpo="git push origin"
 alias glol="git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset'"
 unalias glg
