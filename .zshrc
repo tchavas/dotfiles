@@ -14,8 +14,10 @@ git config --global --add --bool push.autoSetupRemote true
 git config --global core.editor "code --wait"
 
 alias rtestall="TEST_ALL_FEATURES=1 bin/rails test"
+alias rtestemu="TEST_ALL_EMUS=1 bin/rails test"
 alias rtest="bin/rails test"
 alias console="bin/rails console"
+alias ff="bin/toggle-feature-flag"
 alias server="rm /tmp/overmind.sock || true && $(pwd)/script/server"
 alias debug="rm /tmp/overmind.sock || true && $(pwd)/script/server --debug"
 alias gcm="git commit -m"
