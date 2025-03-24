@@ -36,4 +36,9 @@ function glg() {
   fi
 }
 
+function openPR() {
+  PR=$(git branch --show-current)
+  code $(git diff --name-only origin/$PR `git merge-base origin/$PR origin/master`)
+}
+
 
