@@ -15,6 +15,7 @@ git config --global core.editor "code --wait"
 
 alias rtestall="TEST_ALL_FEATURES=1 bin/rails test"
 alias rtestemu="TEST_ALL_EMUS=1 bin/rails test"
+alias rtestmt="MULTI_TENANT_ENTERPRISE=1 bin/rails test"
 alias rtest="bin/rails test"
 alias console="bin/rails console"
 alias ff="bin/toggle-feature-flag"
@@ -25,6 +26,7 @@ alias gcv="git commit -v"
 alias gap="git add -p"
 alias gpa="git add -p"
 alias gpo="git push origin"
+alias skip="SKIP_ALL_PREPUSH_CHECKS=1"
 alias glol="git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset'"
 unalias glg
 function glg() {
