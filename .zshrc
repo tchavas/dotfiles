@@ -11,7 +11,7 @@ plugins=(git rails ruby rake-fast)
 
 source $ZSH/oh-my-zsh.sh
 git config --global --add --bool push.autoSetupRemote true
-git config --global core.editor "code --wait"
+export EDITOR="code --wait"
 
 alias rtestall="TEST_ALL_FEATURES=1 bin/rails test"
 alias rtestemu="TEST_ALL_EMUS=1 bin/rails test"
